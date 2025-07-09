@@ -195,11 +195,6 @@ const navLinks = [
       imgPath: "/images/github.png",
       link: "https://github.com/michaelyoussef396"
     },
-    {
-      name: "medium",
-      imgPath: "/images/medium.svg",
-      link: "https://medium.com/@michaelyoussef396"
-    }
   ];
   
 
