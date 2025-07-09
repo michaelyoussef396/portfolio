@@ -1,3 +1,35 @@
+import { FaReact, FaPython, FaNode, FaProjectDiagram } from "react-icons/fa";
+import { SiThreedotjs } from "react-icons/si";
+
+export const faqs = [
+  {
+    question: "What technologies do you specialize in?",
+    answer:
+      "My core stack includes React, Next.js, TypeScript, Python (Flask), SQL, and SQLite. I also work with Tailwind CSS, SCSS, Git, and API integrations.",
+  },
+  {
+    question: "Are you available for freelance or full-time roles?",
+    answer:
+      "Yes — I’m open to both freelance projects and full-time positions that align with my skills and values.",
+  },
+  {
+    question: "Do you have backend experience?",
+    answer:
+      "Yes, I’m confident in full-stack workflows. I can build and scale REST APIs using Flask, manage databases with SQL/SQLite, and deploy full solutions.",
+  },
+  {
+    question: "Can I see examples of your work?",
+    answer:
+      "Definitely — you can check out my portfolio for live projects and case studies. Reach out for client-specific examples or walkthroughs.",
+  },
+  {
+    question: "What’s your ideal work environment?",
+    answer:
+      "One where I’m trusted to build and ship autonomously, but also collaborate in fast-paced teams. I value clean code, honest feedback, and rapid learning.",
+  },
+];
+
+
 const words = [
     { text: "Design", imgPath: "/images/ideas.svg" },
     { text: "Development", imgPath: "/images/concepts.svg" },
@@ -79,36 +111,26 @@ const navLinks = [
     },
   ];
 
-  const techStackIcons = [
+  export const techStackIcons = [
     {
       name: "React & Next.js",
-      modelPath: "/models/react_logo-transformed.glb",
-      scale: 1,
-      rotation: [0, 0, 0],
+      icon: FaReact,
     },
     {
       name: "Python & Flask",
-      modelPath: "/models/python-transformed.glb",
-      scale: 0.8,
-      rotation: [0, 0, 0],
+      icon: FaPython, // fallback icon, you use img instead
     },
     {
       name: "Full Stack Developer",
-      modelPath: "/models/node-transformed.glb",
-      scale: 5,
-      rotation: [0, -Math.PI / 2, 0],
+      icon: FaNode,
     },
     {
       name: "Interactive Developer",
-      modelPath: "/models/three.js-transformed.glb",
-      scale: 0.05,
-      rotation: [0, 0, 0],
+      icon: SiThreedotjs,
     },
     {
       name: "Project Manager",
-      modelPath: "/models/git-svg-transformed.glb",
-      scale: 0.05,
-      rotation: [0, -Math.PI / 4, 0],
+      icon: FaProjectDiagram,
     },
   ];
 
@@ -190,4 +212,5 @@ export {
     techStackIcons,
     testimonials,
     socialImgs,
+    faqs,
 }

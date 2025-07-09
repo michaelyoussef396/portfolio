@@ -1,6 +1,9 @@
 'use client'
 
+import {Benefits} from './components/Benefits'
+import FAQ from './components/Faq'
 import NavBar from './components/NavBar'
+import { faqs } from './constants'
 import Contact from './sections/Contact'
 import ExperienceSection from './sections/ExperienceSection'
 import FeatureCards from './sections/FeatureCards'
@@ -17,9 +20,11 @@ export default function HomePage() {
       <Hero />
       <ShowcaseSection />
       <FeatureCards />
+      <Benefits />
       <ExperienceSection />
       <TechStack />
       <Testimonials />
+      <FAQ faqs={faqs} />
       <Contact />
       <Footer />
     </>
