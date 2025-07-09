@@ -92,7 +92,7 @@ const ShowcaseSection = () => {
               </p>
               <Button
                 text="View Project"
-                link="https://edeninternational.com.au"
+                link="https://edeninternational.vercel.app/"
                 className="mt-5"
               />
             </div>
